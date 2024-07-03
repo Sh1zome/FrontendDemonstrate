@@ -1,0 +1,72 @@
+.services {
+  color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: calc(100vh - 235px);
+  margin-bottom: 50px;
+}
+.services .content {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 20px;
+}
+.services .row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.services h1 {
+  font-size: 20pt;
+}
+.services .blocks {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+.services .blocks .block {
+  border: 2px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.17) 0 10px 20px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 230px;
+}
+.services .blocks .block:hover {
+  background-color: #f0f0f0;
+}
+.services .blocks .block h2 {
+  margin-top: 0;
+}
+.services .blocks .block p {
+  margin: 5px 0;
+}
+.services button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.services .block-details {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.17) 0 10px 20px;
+}
+.services .block-details h2 {
+  margin-top: 0;
+}
+.services .block-details p {
+  margin: 10px 0;
+}
+.services .block-details button {
+  display: block;
+  margin: 20px 0;
+}/*# sourceMappingURL=Services.css.map */
